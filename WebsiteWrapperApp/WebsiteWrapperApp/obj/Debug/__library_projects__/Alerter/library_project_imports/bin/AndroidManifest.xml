@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tapadoo.android"
+    android:versionCode="1"
+    android:versionName="1.0.4" > <!-- Our Min SDK is 16, UI Automator requires Min 18, so this will force its use -->
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="25"
+        tools:overrideLibrary="android.support.test.uiautomator.v18" />
+
+    <application android:supportsRtl="true" >
+
+        <!-- This is just an Activity for Testing from within src/androidTest -->
+        <activity
+            android:name="com.tapadoo.android.MockActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>
