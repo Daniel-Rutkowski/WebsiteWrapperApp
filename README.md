@@ -1,6 +1,8 @@
 # Website Wrapper App
 An Android App that Wraps a Website in a Webview with some added features
 
+Project Note: This app was written using Xamarin with C# and XML.
+
 Project Status: Completed
 
 Project Description and Purpose: This app is wraps a website to allow a user to who has developed a fully functioning website have an easy way to create an App for that website. This App also comes with some additional features including:
