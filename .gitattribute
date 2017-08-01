@@ -1,3 +1,2 @@
 * linguist-vendored
 *.cs linguist-vendored=false
-*.axml linguist-vendored=false
